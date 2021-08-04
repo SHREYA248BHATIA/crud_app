@@ -1,6 +1,7 @@
 //for custom javascript
 // $("#add_user") is the id in model.js
-const PORT=process.env.PORT||8080;
+//  const PORT= process.env.PORT||80;
+// const nodejs=require('NodeJs');
 
 $("#add_user").submit(function(event){
     alert("Data Added Successfully!");
@@ -11,14 +12,14 @@ $("#update_user").submit(function(event){
     var unindexed_array=$(this).serializeArray();//here,this is #update_user
     var data={}
     $.map(unindexed_array,function(n,i){
-        data[n['name']]=n['value']
+        data[n['name']]=n['value'];
 
 
     })//n will return all the data from the array and i wil return the index from array
     console.log(data);
-    
+    // var process=nodejs.Process;
     var request={
-        "url":`http://localhost:${PORT}/api/users/${data.id}`,
+        "url":`http://localhost:${3000 || process.env.PORT}/api/users/${data.id}`,
         "method":"PUT",
         "data":data
     }
@@ -33,9 +34,9 @@ if(window.location.pathname=="/"){
     $ondelete=$(".table tbody td a.delete");
     $ondelete.click(function(){
         var id=$(this).attr("data-id") //get the current user id from 'this' data attribute
-
+        // var process= nodejs.Process;
         var request={
-            "url":`http://localhost:${PORT}/api/users/${id}`,
+            "url":`http://localhost:${ 3000 || process.env.PORT}/api/users/${id}`,
             "method":"DELETE",
         }
         if(confirm("Do you really want to delete this record?")){
