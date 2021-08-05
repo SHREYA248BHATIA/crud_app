@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SHREYA248BHATIA/quote-generator-app/static/css/main.30109a0c.chunk.css",
+    "main.js": "/SHREYA248BHATIA/quote-generator-app/static/js/main.579d74ca.chunk.js",
+    "main.js.map": "/SHREYA248BHATIA/quote-generator-app/static/js/main.579d74ca.chunk.js.map",
+    "runtime-main.js": "/SHREYA248BHATIA/quote-generator-app/static/js/runtime-main.de5abb11.js",
+    "runtime-main.js.map": "/SHREYA248BHATIA/quote-generator-app/static/js/runtime-main.de5abb11.js.map",
+    "static/js/2.dffef131.chunk.js": "/SHREYA248BHATIA/quote-generator-app/static/js/2.dffef131.chunk.js",
+    "static/js/2.dffef131.chunk.js.map": "/SHREYA248BHATIA/quote-generator-app/static/js/2.dffef131.chunk.js.map",
+    "index.html": "/SHREYA248BHATIA/quote-generator-app/index.html",
+    "static/css/main.30109a0c.chunk.css.map": "/SHREYA248BHATIA/quote-generator-app/static/css/main.30109a0c.chunk.css.map",
+    "static/js/2.dffef131.chunk.js.LICENSE.txt": "/SHREYA248BHATIA/quote-generator-app/static/js/2.dffef131.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de5abb11.js",
+    "static/js/2.dffef131.chunk.js",
+    "static/css/main.30109a0c.chunk.css",
+    "static/js/main.579d74ca.chunk.js"
+  ]
+}
